@@ -1,3 +1,13 @@
+function showhide() {
+    var x = document.getElementById("gamerules");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
 // Complete logic of game inside this function
 const game = () => {
     let playerScore = 0;

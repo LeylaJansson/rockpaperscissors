@@ -97,3 +97,9 @@
         width: 100vw;
     }
 }
+
+/*gamerules styling*/
+#rules {
+    background-color: green;
+    margin-top: 100px;
+}
