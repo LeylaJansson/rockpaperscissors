@@ -50,9 +50,9 @@
 }
  
 /* Styling on all three buttons */
-.rock, .paper, .scissor{
+.rock,.paper, .scissor{
     padding: 0.8rem;
-    width: 100px;
+    /*width: 100px;*/
     border-radius: 10px;
     background: green;
     outline: none;
@@ -60,7 +60,7 @@
     border: none;
     cursor: pointer;
 }
- 
+
 .move{
     font-size: 2rem;
     font-weight: bold;
@@ -97,3 +97,4 @@
     .options{
         width: 100vw;
     }
+}
