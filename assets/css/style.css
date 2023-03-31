@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
 }
- 
+
 /* Title of the game */
 .title{
     position: absolute;
@@ -52,7 +52,6 @@
 /* Styling on all three buttons */
 .rock,.paper, .scissor{
     padding: 0.8rem;
-    /*width: 100px;*/
     border-radius: 10px;
     background: green;
     outline: none;
